@@ -1,4 +1,3 @@
-__pycache__/
+*.session.sql
+*.sql-session
 .vscode/
-.DS_Store
-*.log
