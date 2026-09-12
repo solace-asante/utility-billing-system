@@ -1,3 +1,4 @@
 *.session.sql
 *.sql-session
 .vscode/
+.DS_Store
