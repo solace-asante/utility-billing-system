@@ -3,24 +3,30 @@ A MySQL project developed after a semester exam in which I was asked to design a
 
 The system represents a simple utility billing workflow involving customers, meters, and bills. The dataset is based on a Ghanaian context, including local city names, customer names, and phone number formats.
 
+Currently migrating this project to PostgreSQL as ongoing practice.
+
 ## Project Structure
 ```
 UTILITY_BILL/
 ├── data/
-│   ├── city.csv
-│   ├── customer.csv
-│   ├── commercial_cust_detail.csv
-│   ├── meter_info.csv
-│   ├── bill_info.csv
-│   └── payment.csv
+│ ├── city.csv
+│ ├── customer.csv
+│ ├── commercial_cust_detail.csv
+│ ├── meter_info.csv
+│ ├── bill_info.csv
+│ └── payment.csv
 ├── diagrams/
-│   └── Electricity_edr.drawio.png
+│ └── Electricity_edr.drawio.png
 ├── sql/
-│   ├── schema.sql
-│   ├── seed.sql
-│   ├── analytics.sql
-│   ├── joins.sql
-│   └── dml.sql
+│ ├── mysql/
+│ │ ├── schema.sql
+│ │ ├── seed.sql
+│ │ ├── analytics.sql
+│ │ ├── joins.sql
+│ │ └── dml.sql
+│ └── postgres/
+│ ├── schema.sql
+│ └── joins.sql
 └── README.md
 ```
 
